@@ -1,6 +1,6 @@
 repeat wait()
 until game:IsLoaded()
-local TableChat = {"Banana On Top","Config By #Hkoaa"}
+local TableChat = {"non","gà","ezzzz","mẹ mày gà", "gà lồn", "cay rồi", "quá non"}
 spawn(function()
     while wait() do 
         pcall(function()
@@ -10,7 +10,7 @@ spawn(function()
     end
 end)
 getgenv().Setting = {
-    ["Team"] = "Marines", --Marines,Pirates
+    ["Team"] = "Pirates", --Marines,Pirates
     ["Webhook"] = {
         ["Enabled"] = true,
         ["Url Webhook"] = "", --Your Url
